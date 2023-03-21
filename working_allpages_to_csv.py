@@ -106,7 +106,7 @@ def scan_next_level(top_level_article):
 
 
 def main():
-    jsonfile = 'articles.json'
+    jsonfile = 'articles.json' # This is the file that we have the data in
     with open(jsonfile) as f:
         data = json.load(f)
     results = data['page']['results']
